@@ -5,7 +5,7 @@ the time (in seconds) it took for the line to be piped into climon.
 
 ## Usage
 
-``Usage: someapp | climon``
+``Usage: someapp | climon [-NoAnsi]``
 
 Example:
 
@@ -39,4 +39,5 @@ Time is updated for each character read from stdin, like this (pseudo code):
     Print read character
 
 This requires ansi support in the terminal, which of course not all terminals support, e.g. github actions.
-But Windows (since 2019), Macos, and Linux support the used ansi codes ootb.
+But Windows (since 2019), Macos, and Linux support the used ansi codes ootb. Use the -NoAnsi flag to climon
+to disable usage of ansi codes, this will make climon not print the time as often.

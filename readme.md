@@ -1,3 +1,5 @@
+[![Build](https://github.com/perjahn/climon/workflows/Build/badge.svg)](https://github.com/perjahn/climon/actions?query=workflow%3A%22Build%22)
+
 climon - command line monitor
 
 When piping multiline output to climon it will be printed with a prefix of each line,
